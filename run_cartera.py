@@ -13,19 +13,19 @@ TICKERS = {
     "GOOG": "Alphabet Class C (US)",
     "PLMR": "Palomar (US)",
     "PYPL": "Paypal (US)",
-    "PAH3.DE": "Porsche SE (Alemania)",     # Xetra
-    "AIR.PA": "Airbus (Francia)",           # París
+    "AIR.PA": "Airbus (Francia)",
     "VFC": "VF Corp (US)",
     "UPWK": "Upwork (US)",
     "MTCH": "Match Group (US)",
     "STNE": "StoneCo (US ADR)",
     "CELH": "Celsius (US)",
     "NKE": "Nike (US)",
-    "SMCI": "Super Micro Computer (US)",    # ojo: SMCI (no SCMI)
-    "ZEG.L": "Zegona Communications (UK)",  # Londres
-    "MC.PA": "LVMH (Francia)",              # París
-    "ASML.AS": "ASML (Países Bajos)",       # Ámsterdam
+    "SMCI": "Super Micro Computer (US)",
+    "ZEG.L": "Zegona Communications (UK)",
+    "MC.PA": "LVMH (Francia)",
+    "ASML.AS": "ASML (Países Bajos)",
     "GOOS": "Canada Goose (US)",
+    "CSU.TO": "Constellation Software (Canadá)"
 }
 
 OUTPUT_CSV = "cotizaciones_live.csv"
