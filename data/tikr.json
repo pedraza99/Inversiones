@@ -1,0 +1,24 @@
+
+{
+    "TICKERS" : {
+    "META": "Meta Platforms (US)",
+    "BXP": "BXP Inc (US)",
+    "GOOGL": "Alphabet Class A (US)",
+    "GOOG": "Alphabet Class C (US)",
+    "PLMR": "Palomar (US)",
+    "PYPL": "Paypal (US)",
+    "AIR.PA": "Airbus (Francia)",
+    "VFC": "VF Corp (US)",
+    "UPWK": "Upwork (US)",
+    "MTCH": "Match Group (US)",
+    "STNE": "StoneCo (US ADR)",
+    "CELH": "Celsius (US)",
+    "NKE": "Nike (US)",
+    "SMCI": "Super Micro Computer (US)",
+    "ZEG.L": "Zegona Communications (UK)",
+    "MC.PA": "LVMH (Francia)",
+    "ASML.AS": "ASML (Países Bajos)",
+    "GOOS": "Canada Goose (US)",
+    "CSU.TO": "Constellation Software (Canadá)"
+    }
+}
