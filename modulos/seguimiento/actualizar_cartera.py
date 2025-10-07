@@ -13,7 +13,8 @@ TZ = pytz.timezone("Europe/Madrid")
 ROOT = Path(__file__).resolve().parents[2]
 JSON_TICKERS_PATH = ROOT / "datos" / "tikr.json"                   # lee el JSON
 OUTPUT_DIR = ROOT / "modulos" / "seguimiento" / "archivos_salida"  # <-- nueva carpeta de salida
-OUTPUT_CSV = OUTPUT_DIR / "cotizaciones_live.csv"
+OUTPUT_CSV_STD = OUTPUT_DIR / "cotizaciones_live.csv"      # ,  y .
+OUTPUT_CSV_ES  = OUTPUT_DIR / "cotizaciones_live_es.csv"   # ;  y ,
 TICKERS_KEY = "TICKERS_Alberto"                                    # <-- lee esta clave del JSON
 
 
@@ -42,14 +43,19 @@ def fetch_prices(tickers: dict) -> pd.DataFrame:
             })
     return pd.DataFrame(rows).sort_values("ticker").reset_index(drop=True)
 
-def write_csv(df: pd.DataFrame, path: Path, sep: str = ';', decimal: str = ','):
-    # sin columna "variacion_%"
-    path.parent.mkdir(parents=True, exist_ok=True)  # asegura que exista archivos_salida
+def write_csvs(df: pd.DataFrame):
     cols = ["ticker", "nombre", "precio", "divisa", "hora", "fuente"]
-    df[cols].to_csv(path, index=False, encoding="utf-8", sep=sep, decimal=decimal)
-    print(f"[OK] Escrito {path} ({len(df)} filas).")
+    OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+
+    # 1) CSV para GitHub (render tabla)
+    df[cols].to_csv(OUTPUT_CSV_STD, index=False, encoding="utf-8")
+
+    # 2) CSV “ES” para Sheets/Apps Script (coma decimal)
+    df[cols].to_csv(OUTPUT_CSV_ES, index=False, encoding="utf-8", sep=';', decimal=',')
+
+    print(f"[OK] Escritos:\n- {OUTPUT_CSV_STD}\n- {OUTPUT_CSV_ES}")
 
 if __name__ == "__main__":
     tickers = load_tickers(JSON_TICKERS_PATH, TICKERS_KEY)
     df = fetch_prices(tickers)
-    write_csv(df, OUTPUT_CSV)
+    write_csvs(df)
