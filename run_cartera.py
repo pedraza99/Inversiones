@@ -25,7 +25,8 @@ TICKERS = {
     "MC.PA": "LVMH (Francia)",
     "ASML.AS": "ASML (Países Bajos)",
     "GOOS": "Canada Goose (US)",
-    "CSU.TO": "Constellation Software (Canadá)"
+    "CSU.TO": "Constellation Software (Canadá)",
+    "AMZN": "Amazon (US)"
 }
 
 OUTPUT_CSV = "cotizaciones_live.csv"
