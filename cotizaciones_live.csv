@@ -1,21 +1,21 @@
 ticker,nombre,precio,divisa,variacion_%,hora,fuente
-AIR.PA,Airbus (Francia),,,,2026-01-21 15:57:55 CET,ERROR: No se pudo obtener AIR.PA: Too Many Requests. Rate limited. Try after a while.
-AMZN,Amazon (US),,,,2026-01-21 15:57:55 CET,ERROR: No se pudo obtener AMZN: Too Many Requests. Rate limited. Try after a while.
-ASML.AS,ASML (Países Bajos),,,,2026-01-21 15:57:55 CET,ERROR: No se pudo obtener ASML.AS: Too Many Requests. Rate limited. Try after a while.
-BXP,BXP Inc (US),,,,2026-01-21 15:57:55 CET,ERROR: No se pudo obtener BXP: Too Many Requests. Rate limited. Try after a while.
-CELH,Celsius (US),,,,2026-01-21 15:57:55 CET,ERROR: No se pudo obtener CELH: Too Many Requests. Rate limited. Try after a while.
-CSU.TO,Constellation Software (Canadá),,,,2026-01-21 15:57:55 CET,ERROR: No se pudo obtener CSU.TO: Too Many Requests. Rate limited. Try after a while.
-GOOG,Alphabet Class C (US),,,,2026-01-21 15:57:55 CET,ERROR: No se pudo obtener GOOG: Too Many Requests. Rate limited. Try after a while.
-GOOGL,Alphabet Class A (US),,,,2026-01-21 15:57:55 CET,ERROR: No se pudo obtener GOOGL: Too Many Requests. Rate limited. Try after a while.
-GOOS,Canada Goose (US),,,,2026-01-21 15:57:55 CET,ERROR: No se pudo obtener GOOS: Too Many Requests. Rate limited. Try after a while.
-MC.PA,LVMH (Francia),,,,2026-01-21 15:57:55 CET,ERROR: No se pudo obtener MC.PA: Too Many Requests. Rate limited. Try after a while.
-META,Meta Platforms (US),,,,2026-01-21 15:57:55 CET,ERROR: No se pudo obtener META: Too Many Requests. Rate limited. Try after a while.
-MTCH,Match Group (US),,,,2026-01-21 15:57:55 CET,ERROR: No se pudo obtener MTCH: Too Many Requests. Rate limited. Try after a while.
-NKE,Nike (US),,,,2026-01-21 15:57:55 CET,ERROR: No se pudo obtener NKE: Too Many Requests. Rate limited. Try after a while.
-PLMR,Palomar (US),,,,2026-01-21 15:57:55 CET,ERROR: No se pudo obtener PLMR: Too Many Requests. Rate limited. Try after a while.
-PYPL,Paypal (US),,,,2026-01-21 15:57:55 CET,ERROR: No se pudo obtener PYPL: Too Many Requests. Rate limited. Try after a while.
-SMCI,Super Micro Computer (US),,,,2026-01-21 15:57:55 CET,ERROR: No se pudo obtener SMCI: Too Many Requests. Rate limited. Try after a while.
-STNE,StoneCo (US ADR),,,,2026-01-21 15:57:55 CET,ERROR: No se pudo obtener STNE: Too Many Requests. Rate limited. Try after a while.
-UPWK,Upwork (US),,,,2026-01-21 15:57:55 CET,ERROR: No se pudo obtener UPWK: Too Many Requests. Rate limited. Try after a while.
-VFC,VF Corp (US),,,,2026-01-21 15:57:55 CET,ERROR: No se pudo obtener VFC: Too Many Requests. Rate limited. Try after a while.
-ZEG.L,Zegona Communications (UK),,,,2026-01-21 15:57:55 CET,ERROR: No se pudo obtener ZEG.L: Too Many Requests. Rate limited. Try after a while.
+AIR.PA,Airbus (Francia),208.45,EUR,0.24,2026-01-21 16:42:11 CET,Yahoo Finance (yfinance; posible retraso)
+AMZN,Amazon (US),231.595,USD,0.258,2026-01-21 16:42:11 CET,Yahoo Finance (yfinance; posible retraso)
+ASML.AS,ASML (Países Bajos),1146.8,EUR,0.596,2026-01-21 16:42:11 CET,Yahoo Finance (yfinance; posible retraso)
+BXP,BXP Inc (US),66.66,USD,1.569,2026-01-21 16:42:11 CET,Yahoo Finance (yfinance; posible retraso)
+CELH,Celsius (US),56.17,USD,-0.917,2026-01-21 16:42:11 CET,Yahoo Finance (yfinance; posible retraso)
+CSU.TO,Constellation Software (Canadá),2703.59,CAD,1.305,2026-01-21 16:42:11 CET,Yahoo Finance (yfinance; posible retraso)
+GOOG,Alphabet Class C (US),328.31,USD,1.909,2026-01-21 16:42:11 CET,Yahoo Finance (yfinance; posible retraso)
+GOOGL,Alphabet Class A (US),327.9799,USD,1.857,2026-01-21 16:42:11 CET,Yahoo Finance (yfinance; posible retraso)
+GOOS,Canada Goose (US),12.59,USD,3.451,2026-01-21 16:42:11 CET,Yahoo Finance (yfinance; posible retraso)
+MC.PA,LVMH (Francia),583.8,EUR,2.421,2026-01-21 16:42:11 CET,Yahoo Finance (yfinance; posible retraso)
+META,Meta Platforms (US),611.78,USD,1.268,2026-01-21 16:42:11 CET,Yahoo Finance (yfinance; posible retraso)
+MTCH,Match Group (US),30.775,USD,-0.243,2026-01-21 16:42:11 CET,Yahoo Finance (yfinance; posible retraso)
+NKE,Nike (US),65.15,USD,2.389,2026-01-21 16:42:11 CET,Yahoo Finance (yfinance; posible retraso)
+PLMR,Palomar (US),129.09,USD,-1.179,2026-01-21 16:42:11 CET,Yahoo Finance (yfinance; posible retraso)
+PYPL,Paypal (US),56.04,USD,1.743,2026-01-21 16:42:11 CET,Yahoo Finance (yfinance; posible retraso)
+SMCI,Super Micro Computer (US),31.8515,USD,1.406,2026-01-21 16:42:11 CET,Yahoo Finance (yfinance; posible retraso)
+STNE,StoneCo (US ADR),15.165,USD,4.298,2026-01-21 16:42:11 CET,Yahoo Finance (yfinance; posible retraso)
+UPWK,Upwork (US),19.695,USD,1.052,2026-01-21 16:42:11 CET,Yahoo Finance (yfinance; posible retraso)
+VFC,VF Corp (US),19.165,USD,2.761,2026-01-21 16:42:11 CET,Yahoo Finance (yfinance; posible retraso)
+ZEG.L,Zegona Communications (UK),1615.0,GBp,1.572,2026-01-21 16:42:11 CET,Yahoo Finance (yfinance; posible retraso)
